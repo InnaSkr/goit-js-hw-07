@@ -26,3 +26,207 @@ body {
   object-fit: cover;
   margin: 10px;
 }
+
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+/* Task 1 */
+
+h2 {
+  font-family: "Montserrat",
+    sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.categories-group {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  height: 264px;
+  background: #f6f6fe;
+  margin-top: 24px;
+}
+
+.group-box {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin: 4px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+  padding-top: 8px;
+
+}
+
+#categories>.item>ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.categories-group-products {
+  height: 216px;
+}
+
+.categories-group-technologies {
+  height: 312px;
+}
+
+/* Task 2 */
+.gallery img {
+  object-fit: cover;
+  width: 360px;
+  height: 300px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+/* Task 3 */
+
+.div-task-three {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+}
+
+.title-task-three {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.task-three-input {
+  width: 360px;
+  height: 40px;
+
+}
+
+.task-three-input:hover,
+.task-three-input:focus {
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Task 4 */
+
+.div-task-four {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+}
+
+.form-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-form {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.button-class {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  margin-top: 8px;
+  font-family: "Montserrat",
+    sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* Task 5 */
+.task-five-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.task-five-widget {
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+
+.button-task-five {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}

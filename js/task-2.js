@@ -1,4 +1,3 @@
-const gallery = document.querySelector('.gallery');
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
@@ -26,12 +25,13 @@ const images = [
   }
 ];
 
+const galleryList = document.querySelector('.gallery');
+const galleryItems = images.map(image => {
+  return `
+    <li>
+      <img src="${image.url}" alt="${image.alt}" width="300">
+    </li>
+  `;
+}).join('');
 
-images.forEach(image => {
-  const li = document.createElement('li');
-  const img = document.createElement('img');
-  img.setAttribute('src', image.url);
-  img.setAttribute('alt', image.alt);
-  li.appendChild(img);
-  gallery.appendChild(li);
-});
+galleryList.insertAdjacentHTML('beforeend', galleryItems);
